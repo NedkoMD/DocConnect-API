@@ -1,0 +1,86 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocConnect.Data", "DocConnect.Data\DocConnect.Data.csproj", "{CFC24DF2-4FC8-413E-939B-CC6D0941E607}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocConnect.Data.Abstraction", "DocConnect.Data.Abstraction\DocConnect.Data.Abstraction.csproj", "{4959BD21-E5C1-47FC-B90C-B97D29C39399}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocConnect.Business", "DocConnect.Business\DocConnect.Business.csproj", "{EAA22784-214C-4257-87D3-290682FA8BF3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocConnect.Business.Abstraction", "DocConnect.Business.Abstraction\DocConnect.Business.Abstraction.csproj", "{6EDE17D5-F091-4FFD-9D14-76E5AD9D61B8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocConnect.Business.Models", "DocConnect.Business.Models\DocConnect.Business.Models.csproj", "{8E208168-0E26-406E-838D-D1469175F0B5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocConnect.Data.Models", "DocConnect.Data.Models\DocConnect.Data.Models.csproj", "{B00EB9EA-62BB-4CF6-BCA6-85B25546D9BC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5AECF444-6A56-4D29-B345-9238FBE4AC4E}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocConnect.Business.UnitTests", "DocConnect.Business.UnitTests\DocConnect.Business.UnitTests.csproj", "{1B89878D-F808-4C60-9CA9-376CC48D4D45}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E48D21E3-7CAA-49A0-B7A3-48A384CA25FA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{1A58DC8E-CD16-44F5-8B72-BE5316317C75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocConnect.Presentation.API", "DocConnect.Presentation.API\DocConnect.Presentation.API.csproj", "{94FF48AE-CAD7-4A18-A46D-F71D13DC9724}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CFC24DF2-4FC8-413E-939B-CC6D0941E607}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFC24DF2-4FC8-413E-939B-CC6D0941E607}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFC24DF2-4FC8-413E-939B-CC6D0941E607}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFC24DF2-4FC8-413E-939B-CC6D0941E607}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4959BD21-E5C1-47FC-B90C-B97D29C39399}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4959BD21-E5C1-47FC-B90C-B97D29C39399}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4959BD21-E5C1-47FC-B90C-B97D29C39399}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4959BD21-E5C1-47FC-B90C-B97D29C39399}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAA22784-214C-4257-87D3-290682FA8BF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAA22784-214C-4257-87D3-290682FA8BF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAA22784-214C-4257-87D3-290682FA8BF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAA22784-214C-4257-87D3-290682FA8BF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EDE17D5-F091-4FFD-9D14-76E5AD9D61B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EDE17D5-F091-4FFD-9D14-76E5AD9D61B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EDE17D5-F091-4FFD-9D14-76E5AD9D61B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EDE17D5-F091-4FFD-9D14-76E5AD9D61B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E208168-0E26-406E-838D-D1469175F0B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E208168-0E26-406E-838D-D1469175F0B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E208168-0E26-406E-838D-D1469175F0B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E208168-0E26-406E-838D-D1469175F0B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B00EB9EA-62BB-4CF6-BCA6-85B25546D9BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B00EB9EA-62BB-4CF6-BCA6-85B25546D9BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B00EB9EA-62BB-4CF6-BCA6-85B25546D9BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B00EB9EA-62BB-4CF6-BCA6-85B25546D9BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B89878D-F808-4C60-9CA9-376CC48D4D45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B89878D-F808-4C60-9CA9-376CC48D4D45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B89878D-F808-4C60-9CA9-376CC48D4D45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B89878D-F808-4C60-9CA9-376CC48D4D45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94FF48AE-CAD7-4A18-A46D-F71D13DC9724}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94FF48AE-CAD7-4A18-A46D-F71D13DC9724}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94FF48AE-CAD7-4A18-A46D-F71D13DC9724}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94FF48AE-CAD7-4A18-A46D-F71D13DC9724}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CFC24DF2-4FC8-413E-939B-CC6D0941E607} = {E48D21E3-7CAA-49A0-B7A3-48A384CA25FA}
+		{4959BD21-E5C1-47FC-B90C-B97D29C39399} = {E48D21E3-7CAA-49A0-B7A3-48A384CA25FA}
+		{EAA22784-214C-4257-87D3-290682FA8BF3} = {E48D21E3-7CAA-49A0-B7A3-48A384CA25FA}
+		{6EDE17D5-F091-4FFD-9D14-76E5AD9D61B8} = {E48D21E3-7CAA-49A0-B7A3-48A384CA25FA}
+		{8E208168-0E26-406E-838D-D1469175F0B5} = {E48D21E3-7CAA-49A0-B7A3-48A384CA25FA}
+		{B00EB9EA-62BB-4CF6-BCA6-85B25546D9BC} = {E48D21E3-7CAA-49A0-B7A3-48A384CA25FA}
+		{1B89878D-F808-4C60-9CA9-376CC48D4D45} = {1A58DC8E-CD16-44F5-8B72-BE5316317C75}
+		{94FF48AE-CAD7-4A18-A46D-F71D13DC9724} = {E48D21E3-7CAA-49A0-B7A3-48A384CA25FA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8DC0BB28-0E51-43F4-BECE-5DB2D7907A61}
+	EndGlobalSection
+EndGlobal

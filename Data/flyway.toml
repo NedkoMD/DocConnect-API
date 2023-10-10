@@ -1,0 +1,21 @@
+databaseType = "MySql"
+name = "Docconnect FlyWay"
+id = "aaae3cf0-19b6-4fa5-be62-67794ccc53ff"
+
+[flywayDesktop]
+developmentEnvironment = "development"
+shadowEnvironment = "shadow"
+schemaModel = "./schema-model"
+
+[redgateCompare]
+filterFile = "filter.rgf"
+
+[flyway]
+mixed = true
+outOfOrder = true
+locations = [ "filesystem:migrations" ]
+validateMigrationNaming = true
+
+[environments."docconnect:dev"]
+url = "jdbc:mysql://localhost:3306"
+schemas = [ "docconnect" ]
