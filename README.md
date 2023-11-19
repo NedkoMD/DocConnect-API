@@ -1,3 +1,13 @@
+# DocConnect API - overview
+
+DocConnect offers a seamless user experience with hassle-free registration and login functionalities for both users and specialists. Users enjoy comprehensive profile management features, including the ability to edit profiles, customize notifications, cancel or schedule appointments, and toggle multi-factor authentication for added security.
+
+Effortlessly find the right healthcare specialist through our intuitive search feature, allowing users to filter based on specialty, country, and name. Say goodbye to traditional appointment scheduling with our online booking system, eliminating the need for time-consuming phone calls.
+
+Stay in the loop with instant notifications and appointment reminders, ensuring that crucial medical appointments are never overlooked. DocConnect prioritizes the security and privacy of your medical information, implementing robust measures in alignment with HIPAA regulations.
+
+Administrators wield powerful tools to manage the application efficiently. Grant specialist access, and easily add, delete, or update information such as countries, cities, specialties, and more. DocConnect is not just an application; it's a comprehensive solution designed to enhance the entire healthcare journey for users and specialists alike.
+
 # DocConnect API - How to run
 
 ## Build
